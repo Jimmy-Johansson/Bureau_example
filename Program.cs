@@ -17,6 +17,7 @@ class Program
             {
                 Console.WriteLine("Stänger byrån...");
                 Environment.Exit(0);
+                Console.ReadKey();
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
             {
